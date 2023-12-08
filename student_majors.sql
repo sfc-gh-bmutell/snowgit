@@ -38,3 +38,5 @@ select distinct major, count(*) as total_students
     from demo.git.students
     group by major
     order by major;
+
+select max(id) from demo.git.students;
